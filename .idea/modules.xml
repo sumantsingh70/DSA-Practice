@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ASSIGNMENTS/assignment - 02/assignment - 02.iml" filepath="$PROJECT_DIR$/ASSIGNMENTS/assignment - 02/assignment - 02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ASSIGNMENTS/assignment 03/assignment 03.iml" filepath="$PROJECT_DIR$/ASSIGNMENTS/assignment 03/assignment 03.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ASSIGNMENTS/assignment 04/assignment 04.iml" filepath="$PROJECT_DIR$/ASSIGNMENTS/assignment 04/assignment 04.iml" />
+      <module fileurl="file://$PROJECT_DIR$/conditions_loops/conditions_loops.iml" filepath="$PROJECT_DIR$/conditions_loops/conditions_loops.iml" />
+      <module fileurl="file://$PROJECT_DIR$/first-idea-program/first-idea-program.iml" filepath="$PROJECT_DIR$/first-idea-program/first-idea-program.iml" />
+      <module fileurl="file://$PROJECT_DIR$/functions and methods/functions and methods.iml" filepath="$PROJECT_DIR$/functions and methods/functions and methods.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/kk dsa.iml" filepath="$PROJECT_DIR$/.idea/kk dsa.iml" />
+      <module fileurl="file://$PROJECT_DIR$/switch/switch.iml" filepath="$PROJECT_DIR$/switch/switch.iml" />
+    </modules>
+  </component>
+</project>
