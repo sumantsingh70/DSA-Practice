@@ -2,6 +2,7 @@ public class RotatedBinarySearch {
     public static void main(String[] args) {
 
 
+
     }
          int search(int[] nums, int target) {
             int pivot = FindPivot(nums);
@@ -69,6 +70,7 @@ public class RotatedBinarySearch {
                     if(arr[end]<arr[end-1]){
                         return end-1;
                     }
+                    
                     end--;
                 }
 
@@ -105,8 +107,12 @@ public class RotatedBinarySearch {
                 }
                 
             }
-            return -1; 
+            return -1;
         }
     
     
 }
+
+
+
+
