@@ -17,13 +17,13 @@ public class RotatedBinarySearch {
             if(nums[pivot]==target){
                 return pivot;
             }
-            if(target>=start){
+            if(target>=nums[0]){
                 return binarySearch(nums,target,0,pivot-1);
             }
            
 
                 return binarySearch(nums,target,pivot+1,nums.length-1); 
-            
+              
         
         }
 
@@ -70,7 +70,6 @@ public class RotatedBinarySearch {
                     if(arr[end]<arr[end-1]){
                         return end-1;
                     }
-                    
                     end--;
                 }
 
@@ -112,7 +111,3 @@ public class RotatedBinarySearch {
     
     
 }
-
-
-
-
