@@ -20,10 +20,28 @@ public class SplitArray {
              //calculate how many pieces you can divide this with max sum.
 
              int sum =0;
-             int pieces = 1;
-             for(int num ; num<nums ;){
-                if(sum +num)
-             }
+             int pieces = 1;  //whole array
+            for(int num : nums)
+            {
+                if(sum+num>mid){
+                    //means we cannot add this in this subarray , make new one
+                    //we add this num in new subarray,then sum = num.
+                    sum = num ;
+                    //exceeds the partition limit therefore increase the partition therefore pieces increases.
+                    pieces++;
+                }
+                else{
+                    sum+=num;
+                }
+            }
+            if (pieces>k){
+                start = mid +1;
+            }
+            else{
+                end = mid;
+            }
+
+
         }
 
         return start;  //here start == end
