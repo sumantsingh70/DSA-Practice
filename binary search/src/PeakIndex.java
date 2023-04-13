@@ -14,7 +14,7 @@ public class PeakIndex {
                 start = mid+1;
             }
         }
-        return start;
+        return start; //as start==end==mid at last.
     }
     
 }
